@@ -1,0 +1,22 @@
+.quote-block {
+  padding: 1rem;
+  font-size: 1rem;
+
+}
+
+.quote-block__brands {
+  font-size: 12px;
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  .quote-block {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .quote-block {
+    padding: 2rem;
+    font-size: 1.2rem;
+  }
+}

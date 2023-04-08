@@ -1,0 +1,27 @@
+.brand-selector {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f7f7f7;
+    margin-bottom: 1rem;
+    }
+    
+    .brand-selector__button {
+    display: inline-block;
+    border: none;
+    background-color: transparent;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: opacity 0.2s ease-in-out;
+    }
+    
+    .brand-selector__button:hover {
+    opacity: 0.7;
+    }
+    
+    .brand-selector__button.active {
+    opacity: 1;
+    }
+    

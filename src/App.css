@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.App {
+  /* Default styles for all screen sizes */
+  padding: 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Styles for screen sizes up to 768px */
+@media (min-width: 0px) and (max-width: 767px) {
+  .App {
+    font-size: 0.8rem;
+  }
+}
+
+/* Styles for screen sizes 768px and above */
+@media (min-width: 768px) {
+  .App {
+    padding: 2rem;
+    font-size: 1.2rem;
+  }
+}
